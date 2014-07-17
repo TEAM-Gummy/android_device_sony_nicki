@@ -188,7 +188,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.debug.wfd.enable=1 \
     persist.sys.wfd.virtual=0 \
     ro.qualcomm.bt.hci_transport=smd \
-    persist.timed.enable=true
+    persist.timed.enable=true \
+    debug.composition.type=dyn
 
 PRODUCT_PROPERTY_OVERRIDES += \
     qcom.audio.init=complete \
@@ -201,7 +202,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.qc.sdk.audio.ssr=false \
     ro.qc.sdk.audio.fluencetype=none \
     lpa.decode=true \
-    lpa.use-stagefright=true \
     audio.gapless.playback.disable=true
 
 PRODUCT_PROPERTY_OVERRIDES += \
